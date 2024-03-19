@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/pexels-lukas-hartmann-1276235.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    height: 80%;
+    width: 40%;
+    /* background-color: aqua; */
+    background-image: url(/images/pexels-polina-tankilevitch-4109257.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.left p {
+    width: 60%;
+    font-size: 2;
+}
+
+.left button {
+    margin-right: 42%;
+}
+
+
+
+
+.right {
+    height: 80%;
+    width: 40%;
+    background-color: rgb(214, 166, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right input{
+    height: 6%;
+    width: 60%;
+    margin: 10px;
+}
+
+.right button{
+    background-color: aqua;
+    height: 6%;
+    width: 30%;
+    border: none;
+}
+
+.button{
+    height: 20%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    background-color: blue;
+    color: white;
+    height: 46%;
+    width: 37%;
+}
